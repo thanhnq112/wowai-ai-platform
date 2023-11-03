@@ -1,0 +1,163 @@
+.container {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+
+    background-image: url('/background-login.png');
+    background-size: cover;
+
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 10vw;
+    height: auto;
+}
+
+.description {
+    color: var(--black-color);
+    font-size: 2vw;
+    letter-spacing: 0.05vw;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    margin-top: 1.5vw;
+
+}
+
+.right {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #0D0D0D;
+    font-weight: 700;
+    font-size: 1.6vw;
+    /* margin: 1.8vw; */
+}
+
+.form {
+    /* background-color: red; */
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formLabel {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.3vw;
+}
+
+.fieldName {
+    color: #252525;
+    font-weight: 400;
+    font-size: 0.9vw;
+    margin-bottom: 0.8vw;
+}
+
+.formInput {
+    color: #808080;
+    height: 3vw;
+    padding: 0 1vw;
+    font-size: 0.8vw;
+    font-weight: 300;
+    border-radius: 1vw;
+    border: 1px solid #808080;
+}
+
+.formInput:focus {
+    outline: none;
+}
+
+.forgotPw {
+    /* background-color: green; */
+    text-align: end;
+    margin-top: 0.8vw;
+    margin-bottom: 1.2vw;
+}
+
+.forgotPwText {
+    color: #2936FF;
+    font-size: 0.9vw;
+    font-weight: 400;
+    margin-right: 1vw;
+}
+
+
+.btnGroup {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btnSignUp,
+.btnSignIn {
+    width: 45%;
+    background-color: green;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1vw;
+    margin: 1vw 0;
+}
+
+.btnSignUpText,
+.btnSignInText {
+    font-size: 0.9vw;
+    font-weight: 700;
+    color: white;
+}
+
+.btnSignUp {
+    background-color: #252525;
+}
+
+.btnSignIn {
+    background: var(--gradient-color);
+}
+
+.btnLoginGoogle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    border-radius: 1vw;
+    border: 1px solid #111111;
+    background-color: white;
+
+}
+
+.btnLoginGoogleText {
+    font-size: 0.9vw;
+    font-weight: 700;
+    color: #111111;
+}
+
+.blinkItem {
+    width: 0.9vw;
+    margin-left: 0.6vw;
+}
