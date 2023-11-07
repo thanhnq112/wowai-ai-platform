@@ -1,0 +1,117 @@
+.container {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* overflow: scroll; */
+}
+
+.row {
+    display: flex;
+    /* background-color: green; */
+    margin-bottom: 1.5vw;
+    justify-content: space-between;
+
+}
+
+.card {
+    /* background-color: red; */
+    width: 18%;
+    height: 20vw;
+    /* background-color: gray; */
+    border-radius: 1vw;
+}
+
+.cardCreate {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #475163 0%, #040405 100%);
+}
+
+.cardCreateItem {
+    width: 40%;
+    /* height: 5vw; */
+    height: auto;
+}
+
+.cardCreateText {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2vw;
+    letter-spacing: 0.03vw;
+    margin-top: 1vw;
+}
+
+.cardProject {
+    background-color: white;
+    border: 0.5px solid #A0A3BD;
+}
+
+.cardProject:hover {
+    border: 2px solid #2A46FF;
+}
+
+.cardProjectThumb {
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+
+}
+
+.cardProjectThumbItem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw 1vw 0 0;
+
+}
+
+.cardProjectInfo {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+    /* margin-bottom: 1vw; */
+    /* background-color: red; */
+    /* margin: 0.8vw; */
+}
+
+.cardProjectTitle {
+    /* color: black; */
+
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: 0.03vw;
+    /* margin-left: 0.8vw; */
+    /* margin-top: 6%;
+    margin-bottom: 6%; */
+}
+
+.cardProject:hover .cardProjectTitle {
+    color: #2A46FF;
+}
+
+.cardProjectDes {
+    color: black;
+    font-size: 0.85vw;
+    /* margin: 0 0.8vw; */
+    font-weight: 600;
+    line-height: 1.2vw;
+    letter-spacing: 0.03vw;
+}
+
+.cardProjectTags {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardProjectTagElement {
+    color: #4E4B66;
+    font-size: 0.8vw;
+    font-weight: 500;
+}

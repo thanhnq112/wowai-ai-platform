@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from './page.module.css'
 import NavBar from '@/components/NavBar'
 import CreateProject from '@/components/CreateProject'
+import ShowProjects from '@/components/ShowProjects'
 import { useState, useRef, useEffect } from "react";
 
 
@@ -26,7 +27,9 @@ export default function Home() {
         <div className={styles.container} ref={refContainer}>
             <NavBar lefNavBarClose={stateLeftNav} funcSetStateNav={setStateLeftNav} />
 
-            <CreateProject />
+            {/* <CreateProject /> */}
+
+            <ShowProjects />
         </div>
     )
 }

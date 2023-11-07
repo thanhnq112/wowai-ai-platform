@@ -1,6 +1,6 @@
 .container {
     /* background-color: green; */
-
+    z-index: 10;
 }
 
 .topComponent {
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #4E4B66;
+    border-bottom: 0.5px solid #A0A3BD;
     position: fixed;
     top: 0;
     left: 0;
@@ -75,7 +75,7 @@
     justify-content: space-between;
     padding-left: 1vw;
     padding-right: 1vw;
-    border-right: 1px solid #4E4B66;
+    border-right: 0.5px solid #A0A3BD;
     position: fixed;
     top: 0;
     left: 0;
