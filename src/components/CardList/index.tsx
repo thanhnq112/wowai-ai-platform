@@ -41,7 +41,7 @@ export default function CardList() {
 
             {dataFormatted.map((element, index) => {
                 return (
-                    <div className={styles.row}>
+                    <div className={styles.row} key={index}>
                         {element.map((e, i) => {
                             return (
                                 e.id == -1 ?

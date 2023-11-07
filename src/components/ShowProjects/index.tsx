@@ -2,11 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from './showProjects.module.css'
 import CardList from "../CardList";
-import { dataProjects } from "@/utils/data/dataProjects";
+// import { dataProjects } from "@/utils/data/dataProjects";
 import { quicksand } from '@/utils/fonts'
-import GridLayout from "react-grid-layout";
+// import GridLayout from "react-grid-layout";
 // import { Responsive as ResponsiveGridLayout } from "react-grid-layout";
-import { Responsive, WidthProvider } from "react-grid-layout";
+// import { Responsive, WidthProvider } from "react-grid-layout";
 
 export default function ShowProjects() {
 
