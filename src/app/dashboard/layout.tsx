@@ -15,7 +15,7 @@ import { useState, useRef, useEffect } from "react";
 //     description: 'WOWAi AI Platform',
 // }
 
-export default function dashBoardLayout({
+export default function DashBoardLayout({
     children,
 }: {
     children: React.ReactNode
