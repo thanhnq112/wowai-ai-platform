@@ -45,7 +45,7 @@ export default function CardList() {
                         {element.map((e, i) => {
                             return (
                                 e.id == -1 ?
-                                    <Link key={e.id} className={`${styles.card} ${styles.cardCreate}`} href={'/createProject'}>
+                                    <Link key={e.id} className={`${styles.card} ${styles.cardCreate}`} href={'/dashboard/create-project'}>
                                         <Image className={styles.cardCreateItem} src={"/plus-thin.svg"} width={24} height={24} alt="" priority />
                                         <span className={styles.cardCreateText}>Create a project</span>
                                     </Link>

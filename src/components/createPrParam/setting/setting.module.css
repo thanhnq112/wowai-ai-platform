@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    height: 92%;
+}
+
+.settingList {
+    /* position: relative; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border-right: 0.50px rgba(20.11, 19.66, 42.50, 0.40) solid; */
+    border-right: 0.5px solid #A0A3BD;
+    border-bottom-left-radius: 1vw;
+    background: white;
+
+}
+
+.settingElement {
+    /* background-color: gray; */
+    width: 90%;
+    height: 10%;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    font-size: 1.0vw;
+    font-weight: 600;
+    letter-spacing: 0.03vw;
+    border: 0.50px rgba(110, 113, 145, 0.40) solid;
+    color: black;
+    background: #FCFDFF;
+    cursor: pointer;
+}
+
+.settingElement:hover,
+.active {
+    border: 2px #2A46FF solid;
+    color: #2A46FF;
+    background: #fff;
+}

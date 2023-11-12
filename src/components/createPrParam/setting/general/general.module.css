@@ -1,0 +1,173 @@
+.settingContent {
+    width: 80%;
+    height: 100%;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-right: 1vw;
+    margin-top: 1vw; */
+    /* background-color: green; */
+
+}
+
+.settingComp {
+    /* background-color: pink; */
+    /* margin-bottom: 1vw; */
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.settingCompWithChild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: stretch; */
+}
+
+.settingCompChild {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.settingLabel {
+    color: #4E4B66;
+    font-weight: 600;
+    /* font-size: 1.2vw; */
+    font-size: 1.0vw;
+    letter-spacing: 0.03vw;
+    margin-bottom: 0.5vw;
+}
+
+.settingInput,
+.settingSelect {
+    width: 100%;
+    height: 50%;
+    border: none;
+    background: #EFF0F6;
+    color: #A0A3BD;
+    font-weight: 400;
+    font-size: 0.9vw;
+    padding-left: 1vw;
+    border-radius: 0.5vw;
+}
+
+.settingInput:focus,
+.settingSelect:focus {
+    outline: none;
+}
+
+.settingSelect {
+    padding-right: 1vw;
+    cursor: pointer;
+
+}
+
+.settingOption {
+    color: #111111;
+    font-weight: 600;
+    font-size: 0.9vw;
+    margin: 1vw;
+}
+
+.settingOption:hover {
+    background: none;
+    color: #fff;
+}
+
+.settingUploadDoc {
+    /* background-color: red; */
+    height: 25%;
+}
+
+.uploadBox {
+    /* background-color: yellow; */
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: dashed red; */
+    border: 1px #111111 dashed;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.uploadImage {
+    /* background-color: red; */
+    /* width: 80%; */
+    height: 60%;
+    margin-right: 2vw;
+    /* width: auto; */
+}
+
+.uploadImageItem {
+    height: 100%;
+    width: auto;
+}
+
+.uploadText {
+    color: #4E4B66;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    letter-spacing: 0.03vw;
+}
+
+
+
+.settingColor {
+    /* background-color: green; */
+    height: 12%;
+}
+
+.colorList {
+    /* background-color: blue; */
+    height: 50%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.colorItem {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 3vw;
+    border: 0.5px solid #A0A3BD;
+}
+
+
+.sampling {
+    /* background-color: red; */
+    height: 20%;
+}
+
+.radio {
+    height: 75%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.radioGroup {
+    display: flex;
+    margin-left: 1vw;
+
+}
+
+/* .radioBox {} */
+
+.radioDesc {
+    margin-left: 1vw;
+    font-size: 0.9vw;
+    line-height: 1.2vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+}

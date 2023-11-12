@@ -17,7 +17,7 @@ export default function ShowProjects() {
 
             <div className={styles.createProj}>
                 <span className={styles.createProjText}>Create a new project</span>
-                <Link className={styles.createProjBtn} href={'/createProject'}>
+                <Link className={styles.createProjBtn} href={'/dashboard/create-project'}>
                     <span className={styles.createProjBtnText}>Create a project</span>
                     <Image className={styles.createProjBtnPlusItem} src={"/plus.svg"} width={24} height={24} alt="" priority />
                 </Link>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import NavBar from '@/components/NavBar'
 import { quicksand } from '@/utils/fonts'
 
 
@@ -18,6 +19,8 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            {/* <NavBar lefNavBarClose={stateLeftNav} funcSetStateNav={setStateLeftNav} /> */}
+
             <body className={quicksand.className}>{children}</body>
         </html>
     )
