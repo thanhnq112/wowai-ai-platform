@@ -3,12 +3,13 @@ import styles from './setting.module.css'
 import { quicksand } from '@/utils/fonts'
 import { useRef, useEffect } from "react";
 import General from './general';
+import MachineLearning from './machineLearning';
 
 
 type settingProps = {
     stepSetting: number,
-    setStepSetting: React.Dispatch<React.SetStateAction<number>>,
-    // setStepSetting: Function
+    // setStepSetting: React.Dispatch<React.SetStateAction<number>>,
+    setStepSetting: Function,
     titleSetting: Array<string>
 };
 
@@ -35,6 +36,9 @@ export default function Setting(props: settingProps) {
 
     }
 
+    console.log(props.stepSetting);
+
+
 
     return (
         <div className={styles.container}>
@@ -49,8 +53,12 @@ export default function Setting(props: settingProps) {
                 })}
 
             </div>
-
-            <General />
+            {/* {props.stepSetting == 0 && <General />} */}
+            {/* {props.stepSetting == 1 && <MachineLearning />} */}
+            {props.stepSetting == 0 ? <General /> : ''}
+            {props.stepSetting == 1 ? <MachineLearning /> : ''}
+            {/* <General /> */}
+            {/* <MachineLearning /> */}
 
         </div>
     )

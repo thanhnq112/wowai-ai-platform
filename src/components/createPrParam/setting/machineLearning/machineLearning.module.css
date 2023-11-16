@@ -1,0 +1,301 @@
+.mlContent {
+    width: 80%;
+    height: 100%;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description {
+    color: #111111;
+    font-size: 1.1vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+    line-height: 1.5vw;
+}
+
+.btnComplex {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.btnBox {
+    background-color: #D41060;
+    border: none;
+    border-radius: 1.5vw;
+    height: 2.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 2vw; */
+}
+
+.btnItem {
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.btnText {
+    color: white;
+    font-size: 0.9vw;
+    font-weight: 700;
+    margin-left: 0.6vw;
+
+}
+
+.mlAssist {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mlTitle {
+    color: #4E4B66;
+    font-size: 1.1vw;
+    font-weight: 600;
+    letter-spacing: 0.03vw;
+}
+
+.mlAssistComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.toggleBlock {
+    width: 2.4vw;
+    height: 1.2vw;
+    /* background-color: green; */
+}
+
+.mlAssistText {
+    color: #111111;
+    font-size: 0.9vw;
+    font-weight: 400;
+    margin-left: 1vw;
+}
+
+.modelVersion {
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mlDescription {
+    color: #8B8F93;
+    font-size: 0.9vw;
+    font-weight: 500;
+    letter-spacing: 0.03vw;
+}
+
+.modelVerComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    /* height: 100%; */
+}
+
+.modelVerSelect {
+    width: 75%;
+    height: 2.5vw;
+    border: none;
+    background: #EFF0F6;
+    color: #A0A3BD;
+    font-weight: 400;
+    font-size: 0.9vw;
+    padding-left: 1vw;
+    border-radius: 0.5vw;
+}
+
+.modelVerSelect:focus {
+    outline: none;
+}
+
+/* .modelVerOption {} */
+
+.modelVerOption {
+    color: #111111;
+    font-weight: 600;
+    font-size: 0.9vw;
+    margin: 1vw;
+}
+
+.modelVerOption:hover {
+    background: none;
+    color: #fff;
+}
+
+
+.training {
+    display: flex;
+    justify-content: space-between;
+    height: 36%;
+}
+
+.modelTraining {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modelTrainingElement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    height: 16%;
+}
+
+.modelTrainingText {
+    color: black;
+    font-size: 1vw;
+    letter-spacing: 0.03vw;
+}
+
+.modelTrainingNumber {
+    width: 30%;
+    height: 100%;
+    border: none;
+    border-radius: 0.5vw;
+    background: #EFF0F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #111111;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.modelTrainingNumber::-webkit-outer-spin-button,
+.modelTrainingNumber::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.modelTrainingNumber:focus {
+    outline: none;
+}
+
+
+.trainingConnect {
+    /* background-color: pink; */
+    width: 50%;
+    background: #EFF0F6;
+    border-radius: 1vw;
+    border: 1px #A0A3BD solid;
+    /* box-shadow: ; */
+    box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.04);
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.connectState {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connectStateBtn {
+    /* background-color: red; */
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connectBtn {
+    height: 2.2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: none;
+    background: white;
+    border-radius: 1vw;
+    /* border-radius: 10% / 50%; */
+}
+
+.btnTextRed,
+.btnTextWhite {
+    font-size: 0.9vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+}
+
+.btnTextRed {
+    color: #FF0000;
+}
+
+.btnTextWhite {
+    color: black;
+}
+
+.stateConnected {
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stateConnectedText {
+    color: #90C55E;
+    font-size: 0.9vw;
+    font-family: 700;
+    letter-spacing: 0.03vw;
+    position: relative;
+}
+
+.stateConnectedText::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    transform: translate(-50%, -50%);
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    background: #90C55E;
+}
+
+.more {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.url,
+.version {
+    display: flex;
+}
+
+.urlTitle,
+.versionTitle {
+    font-size: 0.9vw;
+    font-weight: 700;
+    letter-spacing: 0.03vw;
+    width: 20%;
+}
+
+.urlContent,
+.versionContent {
+    font-size: 0.9vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+}
+
+.behavior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

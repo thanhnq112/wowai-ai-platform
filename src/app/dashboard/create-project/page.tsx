@@ -38,6 +38,7 @@ export default function CreateProject() {
 
     useEffect(() => {
         if (step == 1) {
+            // refProcess1.current && refProcess1.current.classList.add(styles.active)
             refProcess1.current!.classList.add(styles.active)
             refProcess2.current!.classList.remove(styles.active)
             refProcess3.current!.classList.remove(styles.active)
